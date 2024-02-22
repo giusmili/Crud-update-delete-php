@@ -1,0 +1,114 @@
+/* theme css */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+body {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  min-height: 100vh;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+header * {
+  line-height: 6.5rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-size: 4rem;
+}
+
+main {
+  max-width: 90rem;
+  margin: 2rem auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: solid 0.1rem transparent;
+  background-color: #fafafafa;
+}
+footer p {
+  text-align: center;
+}
+
+.warning-default {
+  width: max-content;
+  line-height: 2.5rem;
+  padding: 1rem;
+}
+.success-warning {
+  color: #27ae60;
+  padding: 0.5rem 0;
+}
+.error-warning {
+  color: #df0f0f;
+}
+
+.material-symbols-outlined {
+  vertical-align: -0.6rem;
+}
+.button.button-outline,
+button.button-outline,
+input[type="button"].button-outline,
+input[type="reset"].button-outline,
+input[type="submit"].button-outline {
+  border: solid 0.1rem #222;
+  color: #222;
+}
+.button {
+  background-color: #222;
+  color: #fff;
+}
+header h1 {
+  margin: 0;
+  line-height: 7.5rem;
+  background-color: #222;
+  color: #fff;
+}
+.modifier {
+  display: inline-block;
+  width: 2rem;
+  vertical-align: middle;
+  filter: invert(100%);
+}
+.list-primary li:nth-child(5n + 5):not(li:last-child) {
+  /* pas de ligne pour le dernier*/
+  border-bottom: solid 0.1rem #ccc;
+  margin-bottom: 2rem;
+}
+.list-primary li:nth-child(5n + 2) {
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+  border-radius: 0.4rem;
+}
+.btn-primary {
+  background-color: #4834d4 !important;
+  border: 0 !important;
+  color: #fff !important;
+}
+
+.btn-warning {
+  background-color: #eb4d4b !important;
+  border: 0 !important;
+  color: #fff !important;
+}
+.sub-title {
+  padding: 0.8rem;
+  font-size: 3rem;
+  background-color: #222;
+  color: #fff;
+  border-radius: 0.4rem;
+}
+
+.logo-admin {
+  max-width: 30rem;
+  margin: 1rem auto 0;
+}
+
+footer * {
+  color: #000;
+}
